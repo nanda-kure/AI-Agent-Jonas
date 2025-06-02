@@ -1,0 +1,53 @@
+{
+  "name": "8796c715-ea73-43ff-be72-6039d55545e2",
+  "displayName": "Search a new job",
+  "parameters": [ {
+    "id": "company_category",
+    "entityType": "@company_category"
+  }, {
+    "id": "company_category1",
+    "entityType": "@company_category"
+  }, {
+    "id": "company_category2",
+    "entityType": "@company_category"
+  }, {
+    "id": "Experience_level",
+    "entityType": "@Experience_level"
+  }, {
+    "id": "duration",
+    "entityType": "@sys.duration"
+  }, {
+    "id": "Job_Profile",
+    "entityType": "@Job_Profile"
+  }, {
+    "id": "Job_Profile1",
+    "entityType": "@Job_Profile"
+  }, {
+    "id": "company_category3",
+    "entityType": "@company_category"
+  }, {
+    "id": "Job_Profile2",
+    "entityType": "@Job_Profile"
+  }, {
+    "id": "company_category4",
+    "entityType": "@company_category"
+  }, {
+    "id": "Job_Profile3",
+    "entityType": "@Job_Profile"
+  }, {
+    "id": "company_category5",
+    "entityType": "@company_category"
+  }, {
+    "id": "Job_Profile4",
+    "entityType": "@Job_Profile"
+  }, {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  }, {
+    "id": "company_category6",
+    "entityType": "@company_category"
+  } ],
+  "priority": 500000,
+  "description": "Intent is triggered when user wants to know open jobs",
+  "numTrainingPhrases": 15
+}

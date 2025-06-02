@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Google",
+    "synonyms": [ "Google", "alphabet" ],
+    "languageCode": "en"
+  }, {
+    "value": "Microsoft",
+    "synonyms": [ "Microsoft" ],
+    "languageCode": "en"
+  }, {
+    "value": "Facebook",
+    "synonyms": [ "Facebook", "meta" ],
+    "languageCode": "en"
+  }, {
+    "value": "Amazon",
+    "synonyms": [ "Amazon" ],
+    "languageCode": "en"
+  }, {
+    "value": "Netflix",
+    "synonyms": [ "Netflix" ],
+    "languageCode": "en"
+  }, {
+    "value": "FANG",
+    "synonyms": [ "all", "any", "FANG" ],
+    "languageCode": "en"
+  } ]
+}

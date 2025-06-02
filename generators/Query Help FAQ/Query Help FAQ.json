@@ -1,0 +1,13 @@
+{
+  "name": "45d3d7e9-6634-4094-9b35-7291d34c9b4b",
+  "displayName": "Query Help FAQ",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.0-flash-lite-001"
+  }
+}

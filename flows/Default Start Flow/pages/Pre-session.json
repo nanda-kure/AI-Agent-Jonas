@@ -1,0 +1,89 @@
+{
+  "name": "61d37e09-2b6a-4f24-8786-947c367f8635",
+  "displayName": "Pre-session",
+  "form": {
+    "parameters": [ {
+      "displayName": "Job_city",
+      "required": true,
+      "entityType": "@sys.geo-city",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "Job_profile",
+      "required": true,
+      "entityType": "@Job_Profile",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "Job_experience",
+      "required": true,
+      "entityType": "@Experience_level",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "Job_skill",
+      "required": true,
+      "entityType": "@Skills",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "description": "What kind of job is the user looking for"
+    }, {
+      "displayName": "Job_company",
+      "required": true,
+      "entityType": "@company_category",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I can help you find specific job openings, and assist you with your queries. What would you like to proceed with?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Search a new job",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Currently we are only handling FANG companies in India. Which of the FANG company would you like to search for? " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Job Details",
+    "name": "b3b6be24-5e6e-473d-9939-84e1783123e1",
+    "description": "Determine if the user wants to look for a job."
+  }, {
+    "intent": "Query Help",
+    "triggerFulfillment": {
+      "generators": [ {
+        "generator": "projects/job-faq-and-matching/locations/global/agents/1f72f77b-d9ac-4fca-87a4-45b86f469aa9/generators/45d3d7e9-6634-4094-9b35-7291d34c9b4b",
+        "outputParameter": "$request.generative."
+      } ]
+    },
+    "targetPage": "Query Helper",
+    "name": "e8580854-8e29-4eea-9ac7-aac7cf8a5287",
+    "description": "Help user with their FAQ query on specific jobs"
+  } ],
+  "description": "Explain user what the agent can help with, and understand the intent of user."
+}

@@ -1,0 +1,48 @@
+{
+  "name": "59e6b327-30c6-467a-bae3-59f7ee4925fb",
+  "displayName": "Job Details",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "Job Search",
+    "tag": "jobSearchWebhook",
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.Job_company = @company_category",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Please help us narrow down search by answering your preference. Which job profile would you like to search for? And what is your experience level?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Do you wish to look at jobs at all FANG companies or you have any preferance." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Search a new job",
+    "condition": "$session.params.Job_company = @company_category",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please help us narrow down search by answering your preference. Which job profile would you like to search for? And what is your experience level?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Show jobs",
+    "name": "6398639b-ae18-4e96-8823-9e025147aeaa"
+  } ],
+  "description": "Collect details from user about his job preferences like city, experience level, profile and company."
+}

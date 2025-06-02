@@ -1,0 +1,47 @@
+{
+  "entities": [ {
+    "value": "Software Developer",
+    "synonyms": [ "Application Developer", "Backend Developer", "Full-Stack Developer", "Programmer", "SDE", "Software Architect", "Software Developer", "Software Engineer" ],
+    "languageCode": "en"
+  }, {
+    "value": "DevOPs",
+    "synonyms": [ "Automation Engineer", "Cloud Engineer", "Configuration Manager", "Developer", "DevOPs", "DevSecOps", "Release Engineer", "SRE" ],
+    "languageCode": "en"
+  }, {
+    "value": "Business analyst",
+    "synonyms": [ "Business analyst", "Business Systems Analyst", "Data Analyst", "Data Scientist", "Process Analyst", "Requirements Analyst", "Systems Analyst" ],
+    "languageCode": "en"
+  }, {
+    "value": "Design",
+    "synonyms": [ "Design", "Graphic Design", "Interaction Design", "Product Design", "UI Design", "UX Design", "Web Design" ],
+    "languageCode": "en"
+  }, {
+    "value": "Sales",
+    "synonyms": [ "Account Executive", "Account Manager", "Business Development", "Sales", "Sales Development Representative", "Sales Manager", "Sales Representative" ],
+    "languageCode": "en"
+  }, {
+    "value": "manager",
+    "synonyms": [ "Chief", "Director", "Foreman", "Head", "manager", "Supervisor", "Team Lead" ],
+    "languageCode": "en"
+  }, {
+    "value": "Accounts",
+    "synonyms": [ "Accountancy", "Accounting", "Accounts", "Auditing", "Bookkeeping", "Financial Records", "Payroll" ],
+    "languageCode": "en"
+  }, {
+    "value": "Finance",
+    "synonyms": [ "Budgeting", "Finance", "Financial Analysis", "Financial Management", "Financial Planning", "Investment Management", "Treasury" ],
+    "languageCode": "en"
+  }, {
+    "value": "Coding",
+    "synonyms": [ "Algorithm Design", "Coding", "Debugging", "Development", "Programming", "Scripting", "Software Development" ],
+    "languageCode": "en"
+  }, {
+    "value": "Consultant",
+    "synonyms": [ "Advisor", "Analyst", "Consultant", "Counselor", "Expert", "Specialist", "Strategist" ],
+    "languageCode": "en"
+  }, {
+    "value": "Machine Learning",
+    "synonyms": [ "AI", "Chatbot", "Conversational agent", "Deep Learning", "Machine Learning" ],
+    "languageCode": "en"
+  } ]
+}

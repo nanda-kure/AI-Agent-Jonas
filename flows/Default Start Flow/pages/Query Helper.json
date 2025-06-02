@@ -1,0 +1,13 @@
+{
+  "name": "d1b16880-cca8-4d0e-9203-7bd026d671f5",
+  "displayName": "Query Helper",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "generators": [ {
+      "generator": "projects/job-faq-and-matching/locations/global/agents/1f72f77b-d9ac-4fca-87a4-45b86f469aa9/generators/45d3d7e9-6634-4094-9b35-7291d34c9b4b",
+      "outputParameter": "$request.generative."
+    } ]
+  }
+}

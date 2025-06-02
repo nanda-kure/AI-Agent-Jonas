@@ -1,0 +1,17 @@
+{
+  "name": "a3bcd6e6-e1ff-4693-968c-32488741081d",
+  "displayName": "Job Search",
+  "genericWebService": {
+    "uri": "https://www.google.com/about/careers/applications/jobs/results",
+    "webhookType": "STANDARD",
+    "oauthConfig": {
+      "clientId": "1079345756043-rvko3lj5uhd9autgho6u3d49csoh0aot.apps.googleusercontent.com",
+      "tokenEndpoint": "https://oauth2.googleapis.com/token",
+      "secretVersionForClientSecret": "projects/1079345756043/secrets/webhook-auth-secret/versions/1"
+    },
+    "secretVersionForUsernamePassword": "projects/1079345756043/secrets/webhook-auth-secret/versions/1"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

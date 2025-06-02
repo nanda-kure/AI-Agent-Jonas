@@ -1,0 +1,7 @@
+{
+  "name": "ca3c8e2a-e672-4d8f-9f50-00c09276c92e",
+  "displayName": "Query Help",
+  "priority": 500000,
+  "description": "Help user with their FAQ queries about specific job",
+  "numTrainingPhrases": 10
+}

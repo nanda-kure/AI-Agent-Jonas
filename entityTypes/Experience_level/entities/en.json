@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "Intern",
+    "synonyms": [ "Apprentice", "Intern" ],
+    "languageCode": "en"
+  }, {
+    "value": "Entry",
+    "synonyms": [ "0 to 3 years", "Early", "Entry" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mid",
+    "synonyms": [ "3+years", "Mid", "Middle" ],
+    "languageCode": "en"
+  }, {
+    "value": "Advanced",
+    "synonyms": [ "5+ years", "Advanced", "High Experience" ],
+    "languageCode": "en"
+  }, {
+    "value": "Director",
+    "synonyms": [ "15+ years", "CEO", "Director", "Leader", "Top Positions" ],
+    "languageCode": "en"
+  } ]
+}

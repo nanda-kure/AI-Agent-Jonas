@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Coding",
+    "synonyms": [ "Coding", "Developer", "IT", "Programming", "Scripting", "Software Development", "Web Development" ],
+    "languageCode": "en"
+  }, {
+    "value": "Finance",
+    "synonyms": [ "Accounting", "Finance", "Financial Management", "Investment" ],
+    "languageCode": "en"
+  }, {
+    "value": "Operations",
+    "synonyms": [ "Coordination", "Logistics", "Operations", "Supply Chain" ],
+    "languageCode": "en"
+  }, {
+    "value": "management",
+    "synonyms": [ "Administration", "Leadership", "management", "Supervision" ],
+    "languageCode": "en"
+  }, {
+    "value": "Electronics",
+    "synonyms": [ "Electronics", "Engineering" ],
+    "languageCode": "en"
+  }, {
+    "value": "Computer Science",
+    "synonyms": [ "Computer Science", "CS", "Internet", "IT" ],
+    "languageCode": "en"
+  } ]
+}

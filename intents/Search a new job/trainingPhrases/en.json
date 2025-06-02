@@ -1,0 +1,159 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "are there any profiles in ",
+      "auto": true
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "for Google",
+      "parameterId": "company_category6"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "look for a job in "
+    }, {
+      "text": "AI",
+      "parameterId": "Job_Profile2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to know about job openings at "
+    }, {
+      "text": "Netflix",
+      "parameterId": "company_category4"
+    }, {
+      "text": " in "
+    }, {
+      "text": "Machine Learning",
+      "parameterId": "Job_Profile3"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to know about job openings at "
+    }, {
+      "text": "Amazon",
+      "parameterId": "company_category5"
+    }, {
+      "text": " in "
+    }, {
+      "text": "Data Science",
+      "parameterId": "Job_Profile4"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to know about job openings at "
+    }, {
+      "text": "google",
+      "parameterId": "company_category3"
+    }, {
+      "text": " in "
+    }, {
+      "text": "System design",
+      "parameterId": "Job_Profile1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "look for a job in "
+    }, {
+      "text": "cyber security",
+      "parameterId": "Job_Profile"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "opportunities",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "openings",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "job",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I have ",
+      "auto": true
+    }, {
+      "text": "3 years",
+      "parameterId": "duration",
+      "auto": true
+    }, {
+      "text": " experience",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "are there any "
+    }, {
+      "text": "entry level",
+      "parameterId": "Experience_level"
+    }, {
+      "text": " opportunities"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "are there any openings at "
+    }, {
+      "text": "Microsoft",
+      "parameterId": "company_category2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to join "
+    }, {
+      "text": "facebook",
+      "parameterId": "company_category"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to look for openings at "
+    }, {
+      "text": "FANG",
+      "parameterId": "company_category1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "look for a job",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}
